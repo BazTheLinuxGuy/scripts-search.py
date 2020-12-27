@@ -1,0 +1,966 @@
+Program Name,Program Type,Size in Bytes
+bond2team,Bourne-Again shell script,23293
+build-classpath,Bourne-Again shell script,1478
+build-classpath-directory,Bourne-Again shell script,313
+build-jar-repository,Bourne-Again shell script,1507
+cinnamon2d,Bourne-Again shell script,201
+clc-clbuild,Bourne-Again shell script,982
+clc-lisp,Bourne-Again shell script,164
+clc-slime,Bourne-Again shell script,165
+create-jar-links,Bourne-Again shell script,4595
+diff-jars,Bourne-Again shell script,1238
+dracut,Bourne-Again shell script,78558
+ef,Bourne-Again shell script,409
+esmtp-wrapper,Bourne-Again shell script,3378
+find-jar,Bourne-Again shell script,696
+fips-finish-install,Bourne-Again shell script,981
+fips-mode-setup,Bourne-Again shell script,3884
+firefox,Bourne-Again shell script,7544
+gcore,Bourne-Again shell script,3473
+gmt-config,Bourne-Again shell script,5544
+gmt_shell_functions.sh,Bourne-Again shell script,18231
+gmtswitch,Bourne-Again shell script,5772
+isogmt,Bourne-Again shell script,1260
+kdumpctl,Bourne-Again shell script,29938
+kernel-install,Bourne-Again shell script,5310
+ldd,Bourne-Again shell script,5447
+lsinitrd,Bourne-Again shell script,10527
+mintlocale,Bourne-Again shell script,64
+mkinitrd,Bourne-Again shell script,6613
+mm2_get_global_netblocks,Bourne-Again shell script,2624
+mm2_get_internet2_netblocks,Bourne-Again shell script,2898
+mm2_update-mirrorlist-server,Bourne-Again shell script,1112
+mono-test-install,Bourne-Again shell script,4324
+opengl-game-wrapper.sh,Bourne-Again shell script,152
+pa-info,Bourne-Again shell script,2043
+postgresql-setup,Bourne-Again shell script,25338
+rebuild-jar-repository,Bourne-Again shell script,1752
+redhat_lsb_init,Bourne-Again shell script,576
+renew-dummy-cert,Bourne-Again shell script,729
+rsync-ssl,Bourne-Again shell script,4937
+ruby,Bourne-Again shell script,2409
+run-parts,Bourne-Again shell script,1987
+shade-jar,Bourne-Again shell script,2463
+sotruss,Bourne-Again shell script,4283
+thunderbird,Bourne-Again shell script,4723
+tzselect,Bourne-Again shell script,15352
+xfce4-set-wallpaper,Bourne-Again shell script,613
+subtitles,Bourne-Again shell script,1735
+mono-package-runtime,Bourne-Again shell script,1473
+gtstemplate,C source,6113
+readmult,HTML document,803
+gcl,Lisp/Scheme program,335
+dislocate,OS/2 REXX batch file,7942
+rakudo-gdb-m,OS/2 REXX batch file,1931
+rakudo-lldb-m,OS/2 REXX batch file,1783
+rakudo-valgrind-m,OS/2 REXX batch file,1609
+aclocal,Perl script text executable,36376
+aclocal-1.16,Perl script text executable,36376
+afmtodit,Perl script text executable,165785
+autoheader,Perl script text executable,8534
+autom4te,Perl script text executable,32181
+automake,Perl script text executable,257981
+automake-1.16,Perl script text executable,257981
+autoreconf,Perl script text executable,21066
+autoscan,Perl script text executable,17124
+autoupdate,Perl script text executable,33872
+bdf2gdfont.pl,Perl script text executable,4689
+biber,Perl script text executable,33554
+binhex.pl,Perl script text executable,3834
+bogoupgrade,Perl script text executable,5825
+bon_csv2txt,Perl script text executable,4242
+callgrind_annotate,Perl script text executable,44658
+callgrind_control,Perl script text executable,12602
+catalyst.pl,Perl script text executable,4360
+cg_annotate,Perl script text executable,33438
+cg_diff,Perl script text executable,10347
+chartex,Perl script text executable,5817
+chem,Perl script text executable,29177
+collateindex.pl,Perl script text executable,17503
+composeglyphs,Perl script text executable,14011
+config_data,Perl script text executable,7138
+coqtags,Perl script text executable,4419
+corelist,Perl script text executable,15279
+cpan,Perl script text executable,8258
+cpan-mirrors,Perl script text executable,4288
+cpan-upload,Perl script text executable,6789
+cpan2dist,Perl script text executable,21736
+cpanel_json_xs,Perl script text executable,9993
+cpanfile-dump,Perl script text executable,3542
+cpanm,Perl script text executable,20162
+cpanp,Perl script text executable,3305
+cpanp-run-perl,Perl script text executable,468
+cpanspec,Perl script text executable,33962
+crc32,Perl script text executable,1043
+cvs2cl,Perl script text executable,92914
+db4-entities.pl,Perl script text executable,1110
+dbicadmin,Perl script text executable,7182
+dbicdump,Perl script text executable,5156
+dbilogstrip,Perl script text executable,1380
+dbiprof,Perl script text executable,6206
+debinhex.pl,Perl script text executable,5792
+diffpp,Perl script text executable,4548
+dm_date,Perl script text executable,5513
+dm_zdump,Perl script text executable,5109
+dumpcpandist,Perl script text executable,1229
+ebappendix,Perl script text executable,30178
+enc2xs,Perl script text executable,41663
+encguess,Perl script text executable,2989
+extractres,Perl script text executable,3411
+findrule,Perl script text executable,3327
+findsmb,Perl script text executable,4604
+flamegraph.pl,Perl script text executable,35898
+foomatic-compiledb,Perl script text executable,4629
+foomatic-configure,Perl script text executable,136767
+foomatic-ppd-options,Perl script text executable,4000
+foomatic-ppd-to-xml,Perl script text executable,11907
+foomatic-ppdfile,Perl script text executable,9788
+foomatic-printjob,Perl script text executable,35032
+foomatic-searchprinter,Perl script text executable,2489
+fprofpp,Perl script text executable,6452
+GET,Perl script text executable,16200
+glilypond,Perl script text executable,18434
+gperl,Perl script text executable,6643
+gpinyin,Perl script text executable,5133
+groffer,Perl script text executable,8243
+grog,Perl script text executable,2778
+gropdf,Perl script text executable,72074
+h2ph,Perl script text executable,29224
+h2xs,Perl script text executable,60931
+HEAD,Perl script text executable,16200
+html2ps,Perl script text executable,132298
+htmltree,Perl script text executable,1258
+ifnames,Perl script text executable,4128
+instmodsh,Perl script text executable,4194
+inxi,Perl script text executable,743351
+isartags,Perl script text executable,2041
+json_pp,Perl script text executable,4896
+json_xs,Perl script text executable,7013
+l4p-tmpl,Perl script text executable,1846
+latextags,Perl script text executable,239
+legotags,Perl script text executable,2218
+libnetcfg,Perl script text executable,15775
+ltags,Perl script text executable,2466
+lwp-download,Perl script text executable,10292
+lwp-dump,Perl script text executable,2711
+lwp-mirror,Perl script text executable,2413
+lwp-request,Perl script text executable,16200
+map,Perl script text executable,4075
+mech-dump,Perl script text executable,4860
+mimedump,Perl script text executable,2350
+mimeencode,Perl script text executable,849
+mimeexplode,Perl script text executable,3355
+mimepostcard,Perl script text executable,2740
+mimesend,Perl script text executable,3136
+mirmon,Perl script text executable,71023
+mirrorMappings,Perl script text executable,3783
+mkCSGB2312,Perl script text executable,2918
+mkmapfile,Perl script text executable,4174
+mmroff,Perl script text executable,3838
+moose-outdated,Perl script text executable,436
+mp2bug,Perl script text executable,1186
+ms_print,Perl script text executable,24327
+mymeta-cpanfile,Perl script text executable,2773
+net-server,Perl script text executable,3418
+nytprofcalls,Perl script text executable,6627
+nytprofcg,Perl script text executable,4075
+nytprofcsv,Perl script text executable,5549
+nytprofhtml,Perl script text executable,80341
+nytprofmerge,Perl script text executable,14509
+nytprofpf,Perl script text executable,4811
+ogonkify,Perl script text executable,9307
+package-stash-conflicts,Perl script text executable,1051
+pdfmom,Perl script text executable,3100
+perl-tags,Perl script text executable,1177
+perlbug,Perl script text executable,44863
+perlcritic,Perl script text executable,41018
+perldoc,Perl script text executable,118
+perlivp,Perl script text executable,10813
+perlthanks,Perl script text executable,44863
+perltidy,Perl script text executable,166206
+piconv,Perl script text executable,8271
+pl2pm,Perl script text executable,4533
+plackup,Perl script text executable,7397
+pod2html,Perl script text executable,4134
+pod2man,Perl script text executable,15034
+pod2texi,Perl script text executable,19843
+pod2text,Perl script text executable,10803
+pod2usage,Perl script text executable,4107
+podchecker,Perl script text executable,3658
+podlint,Perl script text executable,1537
+podselect,Perl script text executable,2527
+podspell,Perl script text executable,1248
+pom2,Perl script text executable,3891
+pomdump,Perl script text executable,1240
+POST,Perl script text executable,16200
+probe,Perl script text executable,2170
+prove,Perl script text executable,13562
+psjoin,Perl script text executable,5218
+ptar,Perl script text executable,3470
+ptardiff,Perl script text executable,2549
+ptargrep,Perl script text executable,4299
+ptked,Perl script text executable,7956
+ptksh,Perl script text executable,18572
+re.pl,Perl script text executable,106
+require-perl-tags,Perl script text executable,454
+require-perl-tags-packed,Perl script text executable,85716
+roff2dvi,Perl script text executable,5721
+roff2html,Perl script text executable,5721
+roff2pdf,Perl script text executable,5721
+roff2ps,Perl script text executable,5721
+roff2text,Perl script text executable,5721
+roff2x,Perl script text executable,5721
+scandeps.pl,Perl script text executable,6652
+sensors-conf-convert,Perl script text executable,13647
+sgmldiff,Perl script text executable,15070
+sgmlspl,Perl script text executable,9656
+shasum,Perl script text executable,9892
+shell-quote,Perl script text executable,5473
+sliceprint,Perl script text executable,2039
+splain,Perl script text executable,19411
+sqlt,Perl script text executable,12271
+sqlt-diagram,Perl script text executable,5553
+sqlt-diff,Perl script text executable,6682
+sqlt-diff-old,Perl script text executable,19114
+sqlt-dumper,Perl script text executable,3287
+sqlt-graph,Perl script text executable,8242
+starman,Perl script text executable,9302
+stemmer-da,Perl script text executable,286
+stemmer-no,Perl script text executable,517
+stemmer-se,Perl script text executable,517
+streamzip,Perl script text executable,5587
+tab2graph,Perl script text executable,4854
+tablify,Perl script text executable,12989
+tabmerge,Perl script text executable,10091
+texi2any,Perl script text executable,50132
+text-vimcolor,Perl script text executable,10555
+tkjpeg,Perl script text executable,1402
+tpage,Perl script text executable,9068
+ttree,Perl script text executable,39138
+urifind,Perl script text executable,7272
+use-devel-assertos,Perl script text executable,5193
+w3mman,Perl script text executable,1204
+xgettext.pl,Perl script text executable,6561
+xpath,Perl script text executable,4857
+xscreensaver-getimage-file,Perl script text executable,40308
+xscreensaver-getimage-video,Perl script text executable,4267
+xscreensaver-text,Perl script text executable,27716
+xsubpp,Perl script text executable,5080
+zipdetails,Perl script text executable,57313
+2ping,Python script,942
+2ping6,Python script,944
+2to3,Python script,95
+2to3-3.5,Python script,95
+abrt,Python script,1328
+abrt-action-analyze-core,Python script,4613
+abrt-action-analyze-vmcore,Python script,2597
+abrt-action-check-oops-for-alt-component,Python script,1926
+abrt-action-check-oops-for-hw-error,Python script,6551
+abrt-action-find-bodhi-update,Python script,5587
+abrt-action-install-debuginfo,Python script,12989
+abrt-action-list-dsos,Python script,3717
+abrt-action-notify,Python script,7225
+abrt-action-perform-ccpp-analysis,Python script,3289
+abrt-handle-upload,Python script,8889
+activate-global-python-argcomplete,Python script,3462
+alembic-3,Python script,382
+anaconda-cleanup,Python script,2744
+analog,Python script,8099
+audit2allow,Python script,15197
+black,Python script,224
+blackd,Python script,225
+blivet-gui,Python script,3647
+blivet-gui-daemon,Python script,3109
+cairosvg,Python script,963
+caribou-preferences,Python script,2259
+catfish,Python script,1481
+chardetect,Python script,964
+chcat,Python script,13843
+cinnamon-desktop-editor,Python script,287
+cinnamon-file-dialog,Python script,2220
+cinnamon-install-spice,Python script,2522
+cinnamon-json-makepot,Python script,1077
+cinnamon-killer-daemon,Python script,1893
+cinnamon-launcher,Python script,2729
+cinnamon-looking-glass,Python script,254
+cinnamon-menu-editor,Python script,590
+cinnamon-preview-gtk-theme,Python script,1309
+cinnamon-screensaver-lock-dialog,Python script,186
+cinnamon-settings,Python script,5292
+cinnamon-settings-users,Python script,183
+cinnamon-slideshow,Python script,179
+cinnamon-subprocess-wrapper,Python script,738
+cinnamon-xlet-makepot,Python script,10469
+click-man,Python script,968
+csscapture,Python script,967
+csscombine,Python script,967
+cssparse,Python script,963
+ddupdate,Python script,350
+ddupdate-config,Python script,402
+distro,Python script,953
+dmypy,Python script,945
+dnf-3,Python script,1942
+dnfdragora,Python script,5358
+doesitcache,Python script,984
+dotenv,Python script,977
+dtrace,Python script,17065
+easy_install,Python script,230
+easy_install-3.9,Python script,230
+epylint-3.9,Python script,955
+f2py,Python script,949
+f2py3,Python script,951
+f2py3.9,Python script,955
+firewall-cmd,Python script,118995
+firewall-config,Python script,333082
+firewall-offline-cmd,Python script,106841
+flake8,Python script,953
+flask-3.9,Python script,948
+flatpak-bisect,Python script,7844
+flatpak-coredumpctl,Python script,3433
+flit,Python script,203
+fpaste,Python script,29639
+futurize-3.9,Python script,960
+gdbus-codegen,Python script,2038
+git-cola,Python script,1445
+git-cola-sequence-editor,Python script,21859
+git-dag,Python script,1450
+glib-genmarshal,Python script,40977
+glib-mkenums,Python script,29792
+gnome-shell-extension-tool,Python script,1706
+gnome-shell-perf-tool,Python script,10613
+grok-dumb-pull,Python script,981
+grok-fsck,Python script,971
+grok-manifest,Python script,979
+grok-pull,Python script,971
+gsettings-schema-convert,Python script,41831
+gtester-report,Python script,19090
+gtk-builder-convert,Python script,28760
+gtkdoc-depscan,Python script,13185
+gtkdoc-fixxref,Python script,2396
+gtkdoc-mkdb,Python script,2946
+gtkdoc-mkhtml,Python script,2076
+gtkdoc-mkhtml2,Python script,2361
+gtkdoc-mkman,Python script,2002
+gtkdoc-mkpdf,Python script,2002
+gtkdoc-rebase,Python script,2623
+gtkdoc-scan,Python script,2801
+gtkdoc-scangobj,Python script,3351
+hmaptool,Python script,9972
+hwasan_symbolize,Python script,9680
+ibus-setup-cangjie,Python script,2015
+idle2.7,Python script,93
+idle3.5,Python script,93
+idle3.6,Python script,93
+idle3.7,Python script,93
+idle3.8,Python script,93
+idle3.9,Python script,93
+instperf,Python script,1745
+ipython,Python script,961
+ipython3,Python script,963
+isort-3.9,Python script,948
+jediepcserver,Python script,988
+jsonlint,Python script,1503
+jsonschema,Python script,973
+jupyter,Python script,973
+jupyter-bundlerextension,Python script,995
+jupyter-kernel,Python script,993
+jupyter-kernelspec,Python script,1001
+jupyter-migrate,Python script,989
+jupyter-nbconvert,Python script,984
+jupyter-nbextension,Python script,985
+jupyter-notebook,Python script,979
+jupyter-qtconsole,Python script,976
+jupyter-run,Python script,987
+jupyter-serverextension,Python script,993
+jupyter-troubleshoot,Python script,999
+keyring,Python script,961
+keyring-python3,Python script,961
+kvm_stat,Python script,62040
+lightdm-settings,Python script,216
+lsusb.py,Python script,14273
+mako-render-3.9,Python script,972
+miniterm-3.py,Python script,35101
+mirrorlist_statistics,Python script,7127
+mm2_crawler,Python script,55694
+mm2_create_install_repo,Python script,4866
+mm2_emergency-expire-repo,Python script,3992
+mm2_generate-worldmap,Python script,4562
+mm2_move-devel-to-release,Python script,4834
+mm2_move-to-archive,Python script,3259
+mm2_propagation,Python script,9258
+mm2_refresh_mirrorlist_cache,Python script,1688
+mm2_umdl2,Python script,10374
+mm2_update-EC2-netblocks,Python script,4236
+mm2_update-master-directory-list,Python script,40213
+mm2_upgrade-install-repo,Python script,4765
+mod_wsgi-express-3,Python script,979
+mono-heapviz,Python script,11145
+mono-sgen-gdb.py,Python script,12186
+mypy,Python script,943
+mypyc,Python script,1434
+nudatus,Python script,958
+ogrmerge.py,Python script,23009
+orca,Python script,8742
+pastebin,Python script,776
+pasteurize-3.9,Python script,964
+pathfix3.7.py,Python script,6717
+pathfix3.8.py,Python script,6786
+pathfix3.9.py,Python script,6786
+pbr-3,Python script,151
+pchrt,Python script,4622
+pflags,Python script,2171
+pgzrun,Python script,947
+pinout,Python script,959
+pip,Python script,648
+pip3,Python script,648
+pip3.9,Python script,648
+pipdeptree,Python script,976
+pipenv,Python script,965
+pipenv-resolver,Python script,983
+pipreqs,Python script,958
+pipsi,Python script,942
+pkginfo,Python script,964
+poetry,Python script,956
+powerline-config,Python script,582
+powerline-lint,Python script,343
+powerline-render,Python script,886
+proselint,Python script,971
+pt2to3,Python script,953
+ptaskset,Python script,4573
+ptdump,Python script,953
+ptrepack,Python script,957
+pttree,Python script,953
+pudb3,Python script,954
+purple-remote,Python script,8378
+purple-url-handler,Python script,10392
+py.test-3.9,Python script,955
+pycodestyle-3.9,Python script,978
+pydoc2.7,Python script,78
+pydoc3.5,Python script,78
+pydoc3.6,Python script,78
+pydoc3.7,Python script,78
+pydoc3.8,Python script,78
+pydoc3.9,Python script,78
+pydocstyle,Python script,973
+pyflakes-3.9,Python script,963
+pygmentize,Python script,967
+pygtk-demo,Python script,189
+pyinotify,Python script,968
+pylint-3.9,Python script,953
+pyreadelf-3.9,Python script,63739
+pyreverse-3.9,Python script,959
+pytest-3.9,Python script,953
+python-argcomplete-check-easy-install-script,Python script,2558
+python2.7-config,Python script,1846
+python3-autopep8,Python script,387
+pyvenv-3.5,Python script,230
+pyvenv-3.6,Python script,435
+pyvenv-3.7,Python script,435
+redshift-gtk,Python script,985
+register-python-argcomplete,Python script,1920
+report_mirror,Python script,9682
+rst2html,Python script,597
+rst2html4,Python script,717
+rst2latex,Python script,794
+rst2man,Python script,602
+rst2odt,Python script,767
+rst2odt_prepstyles,Python script,1729
+rst2pseudoxml,Python script,604
+rst2s5,Python script,640
+rst2xetex,Python script,874
+rst2xml,Python script,605
+rstpep2html,Python script,673
+runxlrd,Python script,16287
+scour,Python script,951
+sealert,Python script,27534
+seapplet,Python script,5534
+set-default-locale,Python script,393
+slick-greeter-check-hidpi,Python script,1627
+slick-greeter-set-keyboard-layout,Python script,1962
+smb2-quota,Python script,6455
+smtpd2.7.py,Python script,18542
+stubgen,Python script,949
+stubtest,Python script,951
+symilar-3.9,Python script,955
+tabulate,Python script,963
+testr-3.9,Python script,960
+thonny,Python script,945
+tox,Python script,941
+tox-quickstart,Python script,963
+uflash,Python script,953
+ufs,Python script,950
+upload-system-info,Python script,605
+vimiv,Python script,309
+virtualenv,Python script,979
+virtualenv-clone,Python script,1003
+xlet-about-dialog,Python script,4070
+xlet-settings,Python script,286
+yamllint,Python script,966
+msgfmt2.7.py,Python script,6487
+pygettext2.7.py,Python script,22082
+pygettext3.6.py,Python script,21547
+pygettext3.7.py,Python script,21547
+pygettext3.8.py,Python script,21535
+pygettext3.9.py,Python script,21535
+chrome-gnome-shell,Python script,21673
+csv2ods,Python script,9058
+dnfdragora-updater,Python script,2203
+gnome-abrt,Python script,11729
+gtkdoc-check,Python script,1401
+mailodf,Python script,2818
+msgfmt3.6.py,Python script,7080
+msgfmt3.7.py,Python script,7080
+msgfmt3.8.py,Python script,7590
+msgfmt3.9.py,Python script,7590
+odf2mht,Python script,2296
+odf2xhtml,Python script,1628
+odf2xml,Python script,2455
+odfimgimport,Python script,6040
+odflint,Python script,7651
+odfmeta,Python script,8448
+odfoutline,Python script,4577
+odfuserfield,Python script,2631
+onboard,Python script,1277
+onboard-settings,Python script,848
+powerline-daemon,Python script,12808
+rst2html5,Python script,1140
+switcherooctl,Python script,4649
+xml2odf,Python script,8802
+erb,Ruby script,5060
+bundle,Ruby script,526
+bundler,Ruby script,528
+gem,Ruby script,348
+irb,Ruby script,504
+rdoc,Ruby script,510
+ri,Ruby script,506
+wordview,Tcl/Tk script,9186
+texi2dvi4a2ps,TeX document,21805
+find_cats,a /usr/bin/csh -f script,2391
+findacro,a /usr/bin/csh -f script,1036
+findtycab,a /usr/bin/csh -f script,823
+simbib,a /usr/bin/csh -f script,843
+simref,a /usr/bin/csh -f script,2479
+abibcode,a /usr/bin/csh script,3559
+Detex,a /usr/bin/csh script,6704
+sushi,a /usr/bin/gjs script,1342
+batch,a /usr/bin/sh -e script,140
+psmandup,a /usr/bin/sh -e script,7897
+psset,a /usr/bin/sh -e script,8389
+fixps,a /usr/bin/sh -e script,12022
+0ad,a /usr/bin/sh script,181
+7z,a /usr/bin/sh script,43
+abrt-action-analyze-ccpp-local,a /usr/bin/sh script,1315
+abrt-action-analyze-vulnerability,a /usr/bin/sh script,1399
+aclient_cgi,a /usr/bin/sh script,1652
+alias,a /usr/bin/sh script,33
+alsaunmute,a /usr/bin/sh script,127
+amuFormat.sh,a /usr/bin/sh script,2672
+anaconda-disable-nm-ibft-plugin,a /usr/bin/sh script,106
+autoconf,a /usr/bin/sh script,14771
+autoexpect,a /usr/bin/sh script,7710
+bf_compact,a /usr/bin/sh script,2106
+bf_copy,a /usr/bin/sh script,1216
+bf_tar,a /usr/bin/sh script,1670
+bg,a /usr/bin/sh script,30
+bind9-config,a /usr/bin/sh script,3421
+blueberry,a /usr/bin/sh script,49
+blueberry-tray,a /usr/bin/sh script,55
+brltty-config,a /usr/bin/sh script,4445
+bzdiff,a /usr/bin/sh script,2144
+bzgrep,a /usr/bin/sh script,2058
+bzmore,a /usr/bin/sh script,1263
+c89,a /usr/bin/sh script,228
+c99,a /usr/bin/sh script,219
+ca-legacy,a /usr/bin/sh script,1648
+catcat,a /usr/bin/sh script,870
+catchsegv,a /usr/bin/sh script,3289
+ccrewrite,a /usr/bin/sh script,84
+cd,a /usr/bin/sh script,30
+cert-sync,a /usr/bin/sh script,84
+chktrust,a /usr/bin/sh script,83
+ci,a /usr/bin/sh script,811
+cinnamon-session-cinnamon,a /usr/bin/sh script,61
+cinnamon-session-cinnamon2d,a /usr/bin/sh script,63
+clamav-config,a /usr/bin/sh script,961
+clanlib-config,a /usr/bin/sh script,373
+clc-register-user-package,a /usr/bin/sh script,1406
+clc-unregister-user-package,a /usr/bin/sh script,1327
+co,a /usr/bin/sh script,811
+command,a /usr/bin/sh script,35
+compile_et,a /usr/bin/sh script,1346
+context,a /usr/bin/sh script,189
+cpanget,a /usr/bin/sh script,1541
+cpp2html,a /usr/bin/sh script,50
+cscope-indexer,a /usr/bin/sh script,3780
+csharp,a /usr/bin/sh script,81
+csslint,a /usr/bin/sh script,87
+cvlc,a /usr/bin/sh script,48
+cvsbug,a /usr/bin/sh script,14035
+db2html,a /usr/bin/sh script,1294
+disco,a /usr/bin/sh script,80
+docbook2html,a /usr/bin/sh script,41
+docbook2man,a /usr/bin/sh script,40
+docbook2rtf,a /usr/bin/sh script,40
+docbook2tex,a /usr/bin/sh script,40
+docbook2texi,a /usr/bin/sh script,41
+docbook2txt,a /usr/bin/sh script,40
+dotty,a /usr/bin/sh script,2089
+dvipdft,a /usr/bin/sh script,2692
+egrep,a /usr/bin/sh script,32
+emacs-terminal,a /usr/bin/sh script,66
+emacspeak,a /usr/bin/sh script,925
+eps2eps,a /usr/bin/sh script,643
+eu-make-debug-archive,a /usr/bin/sh script,2915
+exo-preferred-applications,a /usr/bin/sh script,285
+external-ip,a /usr/bin/sh script,165
+fbsetbg,a /usr/bin/sh script,17018
+fc,a /usr/bin/sh script,30
+fc-cache,a /usr/bin/sh script,139
+fg,a /usr/bin/sh script,30
+fgrep,a /usr/bin/sh script,32
+find2mas6x,a /usr/bin/sh script,473
+find2mass,a /usr/bin/sh script,907
+find2mass6x,a /usr/bin/sh script,444
+find2massi,a /usr/bin/sh script,907
+find_gen,a /usr/bin/sh script,3523
+findcat,a /usr/bin/sh script,925
+findcfhtd,a /usr/bin/sh script,483
+findcfhtw,a /usr/bin/sh script,483
+findcmc14,a /usr/bin/sh script,762
+findcmc15,a /usr/bin/sh script,482
+findenis,a /usr/bin/sh script,2103
+findenis1,a /usr/bin/sh script,2103
+findenis2,a /usr/bin/sh script,2103
+findenis3,a /usr/bin/sh script,2103
+findgalex5a,a /usr/bin/sh script,539
+findgalex5m,a /usr/bin/sh script,539
+findglimpse,a /usr/bin/sh script,1083
+findgsc,a /usr/bin/sh script,2667
+findgsc1.1,a /usr/bin/sh script,2667
+findgsc1.2,a /usr/bin/sh script,2667
+findgsc1.3,a /usr/bin/sh script,2667
+findgsc2.2,a /usr/bin/sh script,2667
+findgsc2.3,a /usr/bin/sh script,2667
+findigsl,a /usr/bin/sh script,472
+findiphas2,a /usr/bin/sh script,480
+findkic,a /usr/bin/sh script,1197
+findmc2,a /usr/bin/sh script,440
+findmc_irsf,a /usr/bin/sh script,447
+findnomad1,a /usr/bin/sh script,650
+findpmm1,a /usr/bin/sh script,675
+findpmm2,a /usr/bin/sh script,675
+findppmx,a /usr/bin/sh script,1200
+findppmxl,a /usr/bin/sh script,1200
+findsage,a /usr/bin/sh script,441
+findsdss-sp,a /usr/bin/sh script,1738
+findsdss3,a /usr/bin/sh script,1607
+findsdss4,a /usr/bin/sh script,1607
+findsdss5,a /usr/bin/sh script,1607
+findsdss6,a /usr/bin/sh script,1607
+findsdss7,a /usr/bin/sh script,1607
+findsdss8,a /usr/bin/sh script,1607
+findsdss9,a /usr/bin/sh script,1607
+findspm4,a /usr/bin/sh script,696
+findtyc2,a /usr/bin/sh script,542
+finducac1,a /usr/bin/sh script,697
+finducac2,a /usr/bin/sh script,697
+finducac3,a /usr/bin/sh script,697
+finducac4,a /usr/bin/sh script,697
+findudxs8,a /usr/bin/sh script,484
+findudxs9,a /usr/bin/sh script,484
+findugcs8,a /usr/bin/sh script,484
+findugcs9,a /usr/bin/sh script,484
+findugps6,a /usr/bin/sh script,484
+findulas7,a /usr/bin/sh script,484
+findulas8,a /usr/bin/sh script,484
+findulas9,a /usr/bin/sh script,484
+findurat1,a /usr/bin/sh script,439
+findusnoa1,a /usr/bin/sh script,675
+findusnoa2,a /usr/bin/sh script,675
+findusnob1,a /usr/bin/sh script,796
+findviking1,a /usr/bin/sh script,481
+findwise,a /usr/bin/sh script,557
+findwise0,a /usr/bin/sh script,557
+findwise_pre,a /usr/bin/sh script,448
+findwisep,a /usr/bin/sh script,557
+FoX-config,a /usr/bin/sh script,2939
+freesolid-config,a /usr/bin/sh script,927
+freetype-config,a /usr/bin/sh script,4474
+ftp-rfc,a /usr/bin/sh script,687
+gacutil,a /usr/bin/sh script,82
+gacutil2,a /usr/bin/sh script,82
+gapi3-codegen,a /usr/bin/sh script,59
+gapi3-fixup,a /usr/bin/sh script,57
+gapi3-parser,a /usr/bin/sh script,94
+gdb-add-index,a /usr/bin/sh script,4415
+gendiff,a /usr/bin/sh script,507
+getopts,a /usr/bin/sh script,35
+gettext.sh,a /usr/bin/sh script,5191
+glib-config,a /usr/bin/sh script,1971
+glib-gettextize,a /usr/bin/sh script,5390
+gnome-session,a /usr/bin/sh script,804
+gnome-session-custom-session,a /usr/bin/sh script,57
+gnome-shell-extension-prefs,a /usr/bin/sh script,663
+gparted,a /usr/bin/sh script,6824
+gpg-zip,a /usr/bin/sh script,3529
+GraphicsMagick++-config,a /usr/bin/sh script,1120
+GraphicsMagick-config,a /usr/bin/sh script,1125
+GraphicsMagickWand-config,a /usr/bin/sh script,1243
+grub2-kbdcomp,a /usr/bin/sh script,1672
+gsnd,a /usr/bin/sh script,281
+gstack,a /usr/bin/sh script,1068
+gtk-config,a /usr/bin/sh script,2161
+gtkdocize,a /usr/bin/sh script,4038
+guild,a /usr/bin/sh script,2872
+guild2.2,a /usr/bin/sh script,2875
+gunzip,a /usr/bin/sh script,2350
+gvimtutor,a /usr/bin/sh script,147
+gvmap.sh,a /usr/bin/sh script,2194
+gzexe,a /usr/bin/sh script,6380
+hash,a /usr/bin/sh script,32
+httpcfg,a /usr/bin/sh script,82
+ibus-setup,a /usr/bin/sh script,1175
+icu-config,a /usr/bin/sh script,205
+ikdasm,a /usr/bin/sh script,81
+install-catalog,a /usr/bin/sh script,4378
+install-printerdriver,a /usr/bin/sh script,99
+isc-config.sh,a /usr/bin/sh script,3421
+ispell,a /usr/bin/sh script,992
+java2html,a /usr/bin/sh script,51
+jobs,a /usr/bin/sh script,32
+jw,a /usr/bin/sh script,12742
+kibitz,a /usr/bin/sh script,10890
+koi8rxterm,a /usr/bin/sh script,3763
+konsoleprofile,a /usr/bin/sh script,1273
+lc,a /usr/bin/sh script,77
+lesspipe.sh,a /usr/bin/sh script,3264
+libmikmod-config,a /usr/bin/sh script,960
+libpng16-config,a /usr/bin/sh script,2440
+libreoffice,a /usr/bin/sh script,376
+libwmf-fontmap,a /usr/bin/sh script,13344
+libyui-terminal,a /usr/bin/sh script,1591
+linux-boot-prober,a /usr/bin/sh script,5997
+lneato,a /usr/bin/sh script,1551
+lpunlock,a /usr/bin/sh script,2623
+lsb_release,a /usr/bin/sh script,15933
+lscat,a /usr/bin/sh script,853
+Magick++-config,a /usr/bin/sh script,1452
+Magick-config,a /usr/bin/sh script,1388
+MagickCore-config,a /usr/bin/sh script,1426
+MagickWand-config,a /usr/bin/sh script,1431
+make-dummy-cert,a /usr/bin/sh script,614
+manview,a /usr/bin/sh script,91
+mbim-network,a /usr/bin/sh script,11347
+mcheck,a /usr/bin/sh script,1683
+mcomp,a /usr/bin/sh script,851
+mconfig,a /usr/bin/sh script,82
+mcs,a /usr/bin/sh script,78
+mdassembler,a /usr/bin/sh script,299
+mdoc,a /usr/bin/sh script,79
+mdoc-assemble,a /usr/bin/sh script,38
+mdoc-export-html,a /usr/bin/sh script,41
+mdoc-export-msxdoc,a /usr/bin/sh script,43
+mdoc-update,a /usr/bin/sh script,36
+mdoc-validate,a /usr/bin/sh script,38
+mdvalidater,a /usr/bin/sh script,48
+mkfontdir,a /usr/bin/sh script,69
+mkindex,a /usr/bin/sh script,1101
+mkocp,a /usr/bin/sh script,175
+mkofm,a /usr/bin/sh script,89
+mkpasswd-expect,a /usr/bin/sh script,5709
+mod,a /usr/bin/sh script,78
+mono-service,a /usr/bin/sh script,1292
+mono-service2,a /usr/bin/sh script,1292
+monodocer,a /usr/bin/sh script,1102
+monodocs2html,a /usr/bin/sh script,694
+monodocs2slashdoc,a /usr/bin/sh script,44
+mozroots,a /usr/bin/sh script,83
+mxtar,a /usr/bin/sh script,788
+nemo-preview,a /usr/bin/sh script,474
+neqn,a /usr/bin/sh script,916
+nroff,a /usr/bin/sh script,3285
+nvlc,a /usr/bin/sh script,50
+ocs,a /usr/bin/sh script,7263
+oobase,a /usr/bin/sh script,43
+oocalc,a /usr/bin/sh script,43
+oodraw,a /usr/bin/sh script,43
+ooffice,a /usr/bin/sh script,36
+ooimpress,a /usr/bin/sh script,46
+oomath,a /usr/bin/sh script,43
+ooviewdoc,a /usr/bin/sh script,43
+oowriter,a /usr/bin/sh script,45
+openbox-session,a /usr/bin/sh script,585
+os-prober,a /usr/bin/sh script,5919
+over,a /usr/bin/sh script,110
+padsp,a /usr/bin/sh script,2233
+padsp-32,a /usr/bin/sh script,2229
+passmass,a /usr/bin/sh script,4741
+pcre-config,a /usr/bin/sh script,2142
+pcre2-config,a /usr/bin/sh script,1954
+pdb2mdb,a /usr/bin/sh script,82
+pdf2dsc,a /usr/bin/sh script,701
+pdf2ps,a /usr/bin/sh script,913
+pdftexi2dvi,a /usr/bin/sh script,1250
+pdiff,a /usr/bin/sh script,5345
+phpize,a /usr/bin/sh script,4745
+pinentry,a /usr/bin/sh script,2408
+pitchplay,a /usr/bin/sh script,1008
+pkg-config,a /usr/bin/sh script,335
+precat,a /usr/bin/sh script,5660
+preunzip,a /usr/bin/sh script,5660
+prezip,a /usr/bin/sh script,5660
+proofgeneral,a /usr/bin/sh script,3100
+ps2ascii,a /usr/bin/sh script,635
+ps2epsi,a /usr/bin/sh script,1258
+ps2pdf,a /usr/bin/sh script,276
+ps2pdf12,a /usr/bin/sh script,219
+ps2pdf13,a /usr/bin/sh script,219
+ps2pdf14,a /usr/bin/sh script,219
+ps2pdfwr,a /usr/bin/sh script,1082
+ps2ps,a /usr/bin/sh script,651
+ps2ps2,a /usr/bin/sh script,673
+purple-send,a /usr/bin/sh script,780
+purple-send-async,a /usr/bin/sh script,639
+pygobject-codegen-2.0,a /usr/bin/sh script,211
+pygtk-codegen-2.0,a /usr/bin/sh script,314
+pylupdate5,a /usr/bin/sh script,293
+pyrcc5,a /usr/bin/sh script,276
+python-argcomplete-tcsh,a /usr/bin/sh script,318
+python3.5m-config,a /usr/bin/sh script,177
+python3.6m-config,a /usr/bin/sh script,177
+python3.7dm-config,a /usr/bin/sh script,179
+python3.7m-config,a /usr/bin/sh script,177
+python3.8-config,a /usr/bin/sh script,175
+python3.9-config,a /usr/bin/sh script,61
+pyuic5,a /usr/bin/sh script,272
+qmi-network,a /usr/bin/sh script,13523
+qvlc,a /usr/bin/sh script,45
+rcsclean,a /usr/bin/sh script,829
+rcsdiff,a /usr/bin/sh script,826
+rcsfreeze,a /usr/bin/sh script,4447
+rcsmerge,a /usr/bin/sh script,829
+read,a /usr/bin/sh script,32
+red,a /usr/bin/sh script,92
+rftp,a /usr/bin/sh script,8892
+rhino,a /usr/bin/sh script,610
+rlog,a /usr/bin/sh script,817
+rlogin-cwd,a /usr/bin/sh script,505
+run-with-aspell,a /usr/bin/sh script,89
+rvlc,a /usr/bin/sh script,45
+scp-dbus-service,a /usr/bin/sh script,94
+sesame,a /usr/bin/sh script,3378
+setreg,a /usr/bin/sh script,81
+setup-nsssysinit.sh,a /usr/bin/sh script,1543
+sgmlwhich,a /usr/bin/sh script,269
+sigil,a /usr/bin/sh script,983
+smbprint,a /usr/bin/sh script,2292
+smbtar,a /usr/bin/sh script,4926
+sn,a /usr/bin/sh script,87
+soapsuds,a /usr/bin/sh script,83
+source-highlight-esc.sh,a /usr/bin/sh script,1021
+spell,a /usr/bin/sh script,125
+sqlmetal,a /usr/bin/sh script,83
+sqlsharp,a /usr/bin/sh script,83
+src-hilite-lesspipe.sh,a /usr/bin/sh script,493
+ssh-copy-id,a /usr/bin/sh script,10945
+start-pulseaudio-x11,a /usr/bin/sh script,1836
+startfluxbox,a /usr/bin/sh script,1448
+startx,a /usr/bin/sh script,5654
+startxfce4,a /usr/bin/sh script,3131
+strace-log-merge,a /usr/bin/sh script,1825
+svcutil,a /usr/bin/sh script,82
+svlc,a /usr/bin/sh script,49
+system-config-language,a /usr/bin/sh script,91
+system-config-printer,a /usr/bin/sh script,99
+system-config-printer-applet,a /usr/bin/sh script,84
+tcptraceroute,a /usr/bin/sh script,1586
+texi2dvi,a /usr/bin/sh script,59831
+texi2pdf,a /usr/bin/sh script,1250
+texindex,a /usr/bin/sh script,4001
+tgz,a /usr/bin/sh script,2299
+thunar-settings,a /usr/bin/sh script,337
+timed-read,a /usr/bin/sh script,307
+timed-run,a /usr/bin/sh script,281
+type,a /usr/bin/sh script,32
+ulimit,a /usr/bin/sh script,34
+umask,a /usr/bin/sh script,33
+unalias,a /usr/bin/sh script,35
+unbuffer,a /usr/bin/sh script,644
+unicode_start,a /usr/bin/sh script,2633
+unicode_stop,a /usr/bin/sh script,367
+unopkg,a /usr/bin/sh script,374
+update-ca-trust,a /usr/bin/sh script,1272
+update-crypto-policies,a /usr/bin/sh script,87
+update-gap-workspace,a /usr/bin/sh script,811
+update-gtk-immodules,a /usr/bin/sh script,316
+usb-devices,a /usr/bin/sh script,4104
+uxterm,a /usr/bin/sh script,4269
+uz,a /usr/bin/sh script,2545
+vimdot,a /usr/bin/sh script,1086
+vimtutor,a /usr/bin/sh script,2124
+wait,a /usr/bin/sh script,32
+Wand-config,a /usr/bin/sh script,1383
+weather,a /usr/bin/sh script,2241
+withsctp,a /usr/bin/sh script,250
+wsdl,a /usr/bin/sh script,79
+wsdl2,a /usr/bin/sh script,79
+x86_64-redhat-linux-gnu-pkg-config,a /usr/bin/sh script,829
+xdg-desktop-icon,a /usr/bin/sh script,21214
+xdg-desktop-menu,a /usr/bin/sh script,44571
+xdg-email,a /usr/bin/sh script,27307
+xdg-icon-resource,a /usr/bin/sh script,30719
+xdg-mime,a /usr/bin/sh script,42792
+xdg-open,a /usr/bin/sh script,25766
+xdg-screensaver,a /usr/bin/sh script,37888
+xdg-settings,a /usr/bin/sh script,38628
+xdg-user-dir,a /usr/bin/sh script,238
+xdvi,a /usr/bin/sh script,1867
+xfce4-panel-profiles,a /usr/bin/sh script,113
+xfce4-popup-applicationsmenu,a /usr/bin/sh script,1572
+xfce4-popup-directorymenu,a /usr/bin/sh script,1500
+xfce4-popup-places,a /usr/bin/sh script,1543
+xfce4-popup-whiskermenu,a /usr/bin/sh script,1544
+xfce4-popup-windowmenu,a /usr/bin/sh script,1497
+xflock4,a /usr/bin/sh script,1721
+xkibitz,a /usr/bin/sh script,4866
+xminicom,a /usr/bin/sh script,1510
+xml2-config,a /usr/bin/sh script,1876
+Xorg,a /usr/bin/sh script,277
+xorg-x11-fonts-update-dirs,a /usr/bin/sh script,1326
+xsd,a /usr/bin/sh script,78
+xzdiff,a /usr/bin/sh script,6637
+xzgrep,a /usr/bin/sh script,5634
+xzless,a /usr/bin/sh script,1803
+xzmore,a /usr/bin/sh script,2166
+zcat,a /usr/bin/sh script,1988
+zcmp,a /usr/bin/sh script,1682
+zdiff,a /usr/bin/sh script,5884
+zegrep,a /usr/bin/sh script,33
+zfgrep,a /usr/bin/sh script,33
+zforce,a /usr/bin/sh script,2085
+zgrep,a /usr/bin/sh script,7596
+zipgrep,a /usr/bin/sh script,2957
+zless,a /usr/bin/sh script,2210
+zmore,a /usr/bin/sh script,1846
+znew,a /usr/bin/sh script,4557
+zstdgrep,a /usr/bin/sh script,3873
+zstdless,a /usr/bin/sh script,34
+libtool,a /usr/bin/sh script,367757
+8211createfromxml,a /usr/bin/sh script,8144
+8211dump,a /usr/bin/sh script,8058
+8211view,a /usr/bin/sh script,8058
+icu-config-64,a /usr/bin/sh script,22194
+s57dump,a /usr/bin/sh script,8040
+libtoolize,a /usr/bin/sh script,129200
+fluxbox-generate_menu,a /usr/bin/sh script,66875
+card,a /usr/bin/sh script,8028
+find_gen1,a /usr/bin/sh script,4147
+vizquery,awk or perl script,8370
+krb5-config,makefile script,7165
+bashbug-64,makefile script,7043
+python3.5m-x86_64-config,makefile script,3799
+python3.6m-x86_64-config,makefile script,3602
+python3.7dm-x86_64-config,makefile script,3400
+python3.7m-x86_64-config,makefile script,3407
+python3.8-x86_64-config,makefile script,3592
+python3.9-x86_64-config,makefile script,3624
