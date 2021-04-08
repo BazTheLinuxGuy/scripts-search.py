@@ -6,7 +6,7 @@ r"""
     scripting, Perl, or Python. 
 """
 
-DEBUG = 0
+DEBUG = 1
 
 
 # import regex
@@ -21,12 +21,12 @@ import readline
 
 __author__ = "Bryan A. Zimmer"
 __date_of_this_notation__ = "Sunday, December 20, 2020. 5:00 AM"
-__updated__ = "Tuesday December 22, 2020 8:30 PM"
+__updated__ = "Wednesday April 6, 2021 1:20 PM"
 __program_name__ = "scripts-search.py"
 
 
 global scriptinfo
-scriptinfo = namedtuple("scriptinfo", "name  type  size")
+scriptinfo = namedtuple("scriptinfo", "name  type  size whatis")
 
 def parse_args(program):
     r"""The purpose of args here is to get the input directory/ies
@@ -93,13 +93,14 @@ class Script:
 
     datatype = "single script info"
 
-    def __init__(self, name, type, size):
+    def __init__(self, name, type, size, whatis):
         self.name = name
         self.type = type
         self.size = size
-        if DEBUG:
-            print(f"type = {type}")
-            sleep(0.5)
+        self.whatis = whatis
+#        if DEBUG:
+#            print(f"type = {type}")
+#            sleep(0.5)
         if "ELF" in type:
             return
         self.type = self.type.rstrip()
@@ -114,13 +115,13 @@ class Script:
 
         ptype = self.type[n:x]
         ptype = ptype.rstrip()
-        if DEBUG:
-            print(f"ptype = {ptype}")
-            sleep(0.5)
+#        if DEBUG:
+#            print(f"ptype = {ptype}")
+#            sleep(0.5)
         self.type = ptype
-        self.script = scriptinfo(
-            name=self.name, type=self.type, size=self.size
-        )
+        self.whatis = whatis
+        self.script = scriptinfo(name=self.name, type=self.type, \
+                                 size=self.size, whatis = self.whatis)
 
 
 ### -------- End of class Script -------- ###
@@ -155,6 +156,7 @@ class Scripts:
         elif args.sortby == "type":
             newlist = sorted(self.scripts, key=lambda script: script.type)
             sfile += "-by-type.csv"
+        
 
         self.sfile = sfile
         os.chdir(args.outputdir)
@@ -164,7 +166,8 @@ class Scripts:
             s1 = "Program Name"
             s2 = "Program Type"
             s3 = "Size in Bytes"
-            s = s1 + "," + s2 + "," + s3 + "\n"
+            s4 = "Whatis..."
+            s = s1 + "," + s2 + "," + s3 + "," + s4 +"\n"
             f.write(s)
 
             for eachscript in newlist:
@@ -184,10 +187,16 @@ class Scripts:
                 s3 = str(eachscript.size)
                 s3 = s3.rstrip()
                 s3 = s3.replace(",", "-")
-
-                s = s1 + "," + s2 + "," + s3 + "\n"
+                
+                s4 = eachscript.whatis
+                s4 = s4.rstrip()
+                s4 = s4.replace(",","-")
+                
+                s = s1 + "," + s2 + "," + s3 + ',' + s4 + "\n"
                 f.write(s)
-
+#                if DEBUG:
+#                    print(f'Just wrote a record {s}')
+#                    k = input("Press[Enter} to continue")
             if args.verbose:
                 print(f"Finished writing {self.sfile}")
 
@@ -228,8 +237,8 @@ def process_programs(programs, scripts):
                 continue
             else:
                 size = statinfo.st_size
-                if DEBUG:
-                    print(f"size of {program} is {size}")
+#                if DEBUG:
+#                    print(f"size of {program} is {size}")
             command = "file " + program
             p = os.popen(command)
             line = p.read()
@@ -237,20 +246,19 @@ def process_programs(programs, scripts):
             ptype = line
             p.close()
 
-            #            command = 'whatis ' + program  # + ' > /dev/null'
-            #            p = os.popen(command)
-            #            line = p.readline()
-            #            line = line.rstrip()
-            #            whatis = line
-            #            p.close()
-            #
-            #            try:
-            #                x = whatis.index('- ')
-            #            except ValueError:
-            #                pass
-            #            else:
-            #                x += 2
-            #                whatis = whatis[x:]
+            command = 'whatis ' + program # + ' >& /dev/null'
+            p = os.popen(command)
+            line = p.read()
+            whatis = line.rstrip()
+            p.close()
+            print(f"whatis = {whatis}")            
+            try:
+                x = whatis.index('- ')
+            except ValueError:
+                pass
+            else:
+                x += 2
+                whatis = whatis[x:]
 
             if ("binary" in ptype) or ("ELF" in ptype):
                 continue
@@ -258,7 +266,7 @@ def process_programs(programs, scripts):
                 symlinks.append((program, ptype, size))
                 continue
             if ("ASCII" in ptype) or ("script" in ptype) or ("text" in ptype):
-                script = Script(program, ptype, size)
+                script = Script(program, ptype, size, whatis)
                 scripts.add(script)
 
         except FileNotFoundError:
@@ -284,16 +292,17 @@ def startup_housekeeping():
     inputdir = inputdir.replace(os.sep, hyphen)
     sfile = sfile + inputdir
 
-    #    if args.verbose > 0:
-    #        print("The output file(s) will be written to:")
-    #        print(args.outputdir + os.sep + sfile + "...")
-
-    #        k=input('Press [Enter] to continue: ')
+    if args.verbose > 0:
+        print("The output file(s) will be written to:")
+        print(args.outputdir + os.sep + sfile + "...")
+        sleep(0.5)
+#        k=input('Press [Enter] to continue: ')
 
     return sfile
 
 
 def report_module(scripts):
+    global symlinks
     replist = sorted(scripts, key=lambda script: script.type)
 
     scripts_reporting = Scripts()
@@ -308,7 +317,7 @@ def report_module(scripts):
         ptype = ptype[0:n]
         if "symbolic" in ptype:
             continue
-        script = Script(name=scrp.name, type=ptype, size=scrp.size)
+        script = Script(name=scrp.name, type=ptype, size=scrp.size, whatis=scrp.whatis)
         sr.add(script)
 
     n = sr.numscripts()
@@ -325,24 +334,30 @@ def report_module(scripts):
                 symlinks.append(script)
         else:
             categories[ptype] += 1
-
+    sort_dict= dict(sorted(categories.items(), key=lambda item: item[1]))
+    categories = sort_dict
+    lines=0   
     for k, v in categories.items():
-
+        
         if "symbolic link" in k:
             continue
         else:
+            lines += 1
             x1 = len(k)
             d = 50 - x1
 #            x2 = len(str(v))
 #            d2 = 4 - x2
             print(f'{k}' + ('.' * d) +  str(v).rjust(4))
 #            print(('%s' + ('.' * d) + '%3d') % k,v)
-
+            if lines  % 15 == 0:
+                k = input("Press [Enter] for the next set: ")
+                print
+    print("Report Ended.")
 
 def main():
     global args
 
-    print("scripts-search version 0.49, (c) 2020, Bryan A. Zimmer", end="\n\n")
+    print("scripts-search version 0.497, (c) 2020, 2021 Bryan A. Zimmer", end="\n\n")
 
     # 1. Parse cmdline args or get them from GTK+ box.
     # [ Done in if __name__ == '__main___': ]
